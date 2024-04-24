@@ -1,1 +1,1 @@
-[show]('https://aidarart.github.io/Collector-Landing/')
+[show](https://aidarart.github.io/Collector-Landing/)
