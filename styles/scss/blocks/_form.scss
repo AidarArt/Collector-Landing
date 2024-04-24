@@ -1,0 +1,18 @@
+.form {
+    margin: 50px 0;
+}
+.form__title {
+    text-align: center;
+}
+.main_form {
+    margin: 0 auto;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+    select, input {
+        border: 1px solid $black;
+    }
+    
+}

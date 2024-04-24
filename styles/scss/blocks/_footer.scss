@@ -1,0 +1,25 @@
+footer {
+    background-color: rgb(66, 66, 66);
+}
+.footer__title {
+    h3 {
+        color: $white;
+    }
+}
+
+.footer__content {
+
+}
+
+.contacts {
+    display: flex;
+    gap: 20px;
+}
+
+.contacts__item {
+
+}
+
+.contacts__link {
+    color: $white;
+}
