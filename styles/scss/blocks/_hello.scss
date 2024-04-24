@@ -1,0 +1,48 @@
+.hello {
+    margin: 50px 0;
+}
+.hello__content {
+    display: flex;
+}
+
+.hello__text {
+    align-self: center;
+}
+
+.hello__text__title {
+    max-width: 800px;
+    animation: text_move 1s ease;
+}
+
+.hello__text__descr {
+    animation: text_move 1.5s ease;
+}
+
+.hello__button {
+    padding-top: 20px;
+}
+
+.hello__img {
+    animation: img_move 1.5s ease;
+    img {
+        transform: rotate(35deg);
+        height: 500px;
+    }
+}
+
+@keyframes text_move {
+    0% {
+        transform: translate(-500px);
+    }
+    100% {
+        transform: translate(0px);
+    }
+}
+@keyframes img_move {
+    0% {
+        transform: translate(500px);
+    }
+    100% {
+        transform: translate(0px);
+    }
+}

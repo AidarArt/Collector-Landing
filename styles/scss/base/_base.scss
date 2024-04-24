@@ -1,0 +1,53 @@
+body {
+    font-size: 24px;
+    // font-family: $font-M;
+    background: $white;
+}
+
+h1 {
+    font-size: 64px;
+    // font-family: $font-B;
+    color: $black;
+    margin-bottom: 5px;
+}
+
+h2 {
+    // font-family: $font-D;
+    font-size: 52px;
+    line-height: 140%;
+    letter-spacing: 2.6px;
+    text-transform: uppercase;
+    color: $black;
+}
+
+h3 {
+    // font-family: $font-D;
+    font-size: 32px;
+    color: $black;
+    text-transform: uppercase;
+    line-height: 140%;
+    letter-spacing: .05em;
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+button {
+    color: $black;
+    border-radius: 20px;
+    padding: 10px 15px;
+    background-color: $green;
+    transition: transform .3s ease;
+    &:hover {
+        transform: scale(1.1);
+    }
+}
+
+.line {
+    height: 1px;
+    background-color: #0000003e;
+    width: 100%;
+}

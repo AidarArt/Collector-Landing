@@ -1,0 +1,29 @@
+header {
+    background-color: rgb(66, 66, 66);
+}
+
+.nav {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+}
+.nav__item {
+}
+.nav__link {
+    color: $white;
+    animation: appearance 1s ease-in-out;
+    &:hover {
+        border-bottom: 2px solid $white;
+    }
+}
+
+@keyframes appearance {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 100%;
+    }
+}
